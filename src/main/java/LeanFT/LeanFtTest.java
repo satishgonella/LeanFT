@@ -69,7 +69,7 @@ public class LeanFtTest extends UnitTestClassBase {
     			.text("&Link Parameters...")
     			.nativeClass("Button").build()).click();
     	
-    	Thread.sleep(3000);
+    	Thread.sleep(2000);
     	
     	Desktop.describe(Dialog.class, new DialogDescription.Builder()
     			.ownedWindow(true)
@@ -80,7 +80,7 @@ public class LeanFtTest extends UnitTestClassBase {
     			.attachedText("Primar&y")
     			.nativeClass("Edit").build()).sendKeys("zos.kctr.marist.edu");
     	
-    	Thread.sleep(3000);
+    	Thread.sleep(1000);
     	
     	Desktop.describe(Dialog.class, new DialogDescription.Builder()
     			.ownedWindow(true)
@@ -110,10 +110,16 @@ public class LeanFtTest extends UnitTestClassBase {
     			.text("OK")
     			.nativeClass("Button").build()).click();
     	
-    	Thread.sleep(3000);
+    	Thread.sleep(1000);
     	
     	Terminal temp = new Terminal();
     	temp.demo();
+    	
+    	Thread.sleep(1000);
+    	
+    	Terminal1 temp1 = new Terminal1();
+    	temp1.demo();
+    	
     }
 
 }

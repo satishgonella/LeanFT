@@ -9,28 +9,26 @@ import com.hp.lft.sdk.te.ScreenDescription;
 import com.hp.lft.sdk.te.Window;
 import com.hp.lft.sdk.te.WindowDescription;
 
-import unittesting.UnitTestClassBase;
-
-public class Terminal extends UnitTestClassBase{
+public class Terminal1 {
 	
-	public void demo() throws GeneralLeanFtException
+public void demo() throws GeneralLeanFtException
 	
 	{
 		
-		Field f = Desktop.describe(Window.class, new WindowDescription.Builder()
+		Field f1 = Desktop.describe(Window.class, new WindowDescription.Builder()
 				.shortName("A").build())
 			.describe(Screen.class, new ScreenDescription.Builder()
-				.label("..............................").build())
+				.label("screen5196").build())
 			.describe(Field.class, new FieldDescription.Builder()
-				.attachedText("field1841")
+				.attachedText("field27")
 				.isProtected(false).build());
 		
-		f.setText("L TSO");
+		f1.setText("User");
 		
 		Screen screen = Desktop.describe(Window.class, new WindowDescription.Builder()
 				.shortName("A").build())
 			.describe(Screen.class, new ScreenDescription.Builder()
-				.label("..............................").build());
+				.label("screen5196").build());
 		
 		screen.sendTEKeys(com.hp.lft.sdk.te.Keys.ENTER);
 		
