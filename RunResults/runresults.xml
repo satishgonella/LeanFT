@@ -1,0 +1,636 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2018-01-28 22:22:43</RunStartTime>
+        <Timezone>Romance Standard Time</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>LeanFT Report</ReportTitle>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description>
+                <![CDATA[ ]]>
+            </Description>
+            <StartTime>2018-01-28 22:22:43</StartTime>
+            <Result>Passed</Result>
+            <Links/>
+            <Duration>19</Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo>
+                    <![CDATA[Microsoft Windows NT 6.2.9200.0]]>
+                </OSInfo>
+                <HostName>SUMITKS</HostName>
+                <NumberOfCores>4</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>8124</TotalMemory>
+                <Locale>
+                    <![CDATA[en-IN]]>
+                </Locale>
+                <Timezone>Romance Standard Time</Timezone>
+                <User>SUMIT</User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>LeanFT</ToolName>
+            <ToolVersion>
+                <![CDATA[14.02]]>
+            </ToolVersion>
+        </Data>
+        <ReportNode type="Package">
+            <Data>
+                <Name>LeanFT</Name>
+                <Description>
+                    <![CDATA[Version: N/A]]>
+                </Description>
+                <StartTime>2018-01-28 22:22:45</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration>17</Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>Package</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="Class">
+                <Data>
+                    <Name>
+                        <![CDATA[LeanFT.LeanFtTest]]>
+                    </Name>
+                    <Description/>
+                    <StartTime>2018-01-28 22:22:45</StartTime>
+                    <Result>Passed</Result>
+                    <Links/>
+                    <Duration>17</Duration>
+                    <Extension>
+                        <Any>
+                            <IconKey>Class</IconKey>
+                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                        </Any>
+                    </Extension>
+                </Data>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>test</Name>
+                        <Description/>
+                        <StartTime>2018-01-28 22:22:45</StartTime>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Duration>17</Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[Link Parameters.click]]>
+                            </Name>
+                            <Description/>
+                            <StartTime>2018-01-28 22:22:46</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>6</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Dialog</Type>
+                                                <Name>
+                                                    <![CDATA[Customize Communication]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Button</Type>
+                                                <Name>
+                                                    <![CDATA[Link Parameters]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[Button]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[text]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[&Link Parameters...]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Button</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Dialog</Type>
+                                                    <Name>
+                                                        <![CDATA[Customize Communication]]>
+                                                    </Name>
+                                                    <IconKey>Dialog</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Button</Type>
+                                                    <Name>
+                                                        <![CDATA[Link Parameters]]>
+                                                    </Name>
+                                                    <IconKey>Button</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[Primary.sendKeys]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>zos.kctr.marist.edu</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-01-28 22:22:54</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>1</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Dialog</Type>
+                                                <Name>
+                                                    <![CDATA[Telnet3270]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.EditField</Type>
+                                                <Name>
+                                                    <![CDATA[Primary]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>sendKeys</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>zos.kctr.marist.edu</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[attachedText]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[Primar&y]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[Edit]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>EditField</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Dialog</Type>
+                                                    <Name>
+                                                        <![CDATA[Telnet3270]]>
+                                                    </Name>
+                                                    <IconKey>Dialog</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.EditField</Type>
+                                                    <Name>
+                                                        <![CDATA[Primary]]>
+                                                    </Name>
+                                                    <IconKey>EditField</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[Port 
+Number.setText]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>1023</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-01-28 22:22:58</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>1</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Dialog</Type>
+                                                <Name>
+                                                    <![CDATA[Telnet3270]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.EditField</Type>
+                                                <Name>
+                                                    <![CDATA[Port 
+Number]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>setText</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>1023</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[attachedText]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[&Port 
+Number]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[Edit]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>EditField</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Dialog</Type>
+                                                    <Name>
+                                                        <![CDATA[Telnet3270]]>
+                                                    </Name>
+                                                    <IconKey>Dialog</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.EditField</Type>
+                                                    <Name>
+                                                        <![CDATA[Port 
+Number]]>
+                                                    </Name>
+                                                    <IconKey>EditField</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[Button.click]]>
+                            </Name>
+                            <Description/>
+                            <StartTime>2018-01-28 22:22:58</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>1</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Dialog</Type>
+                                                <Name>
+                                                    <![CDATA[Telnet3270]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.EditField</Type>
+                                                <Name>
+                                                    <![CDATA[Button]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[Button]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[text]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[OK]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>EditField</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Dialog</Type>
+                                                    <Name>
+                                                        <![CDATA[Telnet3270]]>
+                                                    </Name>
+                                                    <IconKey>Dialog</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.EditField</Type>
+                                                    <Name>
+                                                        <![CDATA[Button]]>
+                                                    </Name>
+                                                    <IconKey>EditField</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[OK.click]]>
+                            </Name>
+                            <Description/>
+                            <StartTime>2018-01-28 22:22:59</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>1</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Dialog</Type>
+                                                <Name>
+                                                    <![CDATA[Customize Communication]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Button</Type>
+                                                <Name>
+                                                    <![CDATA[OK]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[nativeClass]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[Button]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[text]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[OK]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[indexType]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA["location"]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Button</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Dialog</Type>
+                                                    <Name>
+                                                        <![CDATA[Customize Communication]]>
+                                                    </Name>
+                                                    <IconKey>Dialog</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Button</Type>
+                                                    <Name>
+                                                        <![CDATA[OK]]>
+                                                    </Name>
+                                                    <IconKey>Button</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name>
+                                <![CDATA[field1841.setText]]>
+                            </Name>
+                            <Description>
+                                <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>L TOS@E</td></tr></table>]]>
+                            </Description>
+                            <StartTime>2018-01-28 22:23:02</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration>1</Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Terminal Emulators.Window</Type>
+                                                <Name>
+                                                    <![CDATA[TeWindow]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Terminal Emulators.Screen</Type>
+                                                <Name>
+                                                    <![CDATA[..............................]]>
+                                                </Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Terminal Emulators.Field</Type>
+                                                <Name>
+                                                    <![CDATA[field1841]]>
+                                                </Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>setText</Operation>
+                                        <OperationData>
+                                            <![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>L TOS@E</td></tr></table>]]>
+                                        </OperationData>
+                                        <Properties>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[isProtected]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[false]]>
+                                                </Value>
+                                            </Property>
+                                            <Property>
+                                                <Name>
+                                                    <![CDATA[attachedText]]>
+                                                </Name>
+                                                <Value>
+                                                    <![CDATA[field1841]]>
+                                                </Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Field</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Terminal Emulators.Window</Type>
+                                                    <Name>
+                                                        <![CDATA[TeWindow]]>
+                                                    </Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Terminal Emulators.Screen</Type>
+                                                    <Name>
+                                                        <![CDATA[..............................]]>
+                                                    </Name>
+                                                    <IconKey>Screen</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Terminal Emulators.Field</Type>
+                                                    <Name>
+                                                        <![CDATA[field1841]]>
+                                                    </Name>
+                                                    <IconKey>Field</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                </ReportNode>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>
